@@ -1,0 +1,127 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 100dvw;
+    z-index: 1000;
+}
+
+.modal {
+    width: 100%;
+    max-width: 430px;
+    background: #fff;
+    padding: 6px 16px 24px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.handle {
+    width: 44px;
+    height: 5px;
+    background: #d9d9d9;
+    border-radius: 999px;
+    margin: 0 auto 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.title {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    strong {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
+
+.description {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(92, 97, 105, 1);
+}
+
+.secondaryButton,
+.primaryButton {
+    width: 100%;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.secondaryButton {
+    margin-top: 24px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(210, 216, 221, 1);
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+
+.secondaryButton:hover {
+    background: #f7f7f7;
+}
+
+.primaryButton {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 1);
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+.primaryButton:hover {
+    background: #222;
+}

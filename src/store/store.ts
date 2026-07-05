@@ -2,9 +2,12 @@ import { configureStore } from "@reduxjs/toolkit";
 
 import orderReducer from "./slices/orderSlice";
 
+import orderReceivedModalReducer from "./slices/orderReceivedModalSlice";
+
 export const store = configureStore({
     reducer: {
-        order: orderReducer
+        order: orderReducer,
+        orderReceivedModal: orderReceivedModalReducer
     }
 });
 
