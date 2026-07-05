@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "seasonal": "Menú de temporada",
+        "main": "Menú principal",
+        "drinks": "Bebidas",
+        "desserts": "Postres",
+        "viewOrder": "Ver pedido",
+        "addToOrder": "Añadir al pedido",
+        "placeOrder": "Realizar pedido",
+        "yourOrder": "Tu pedido",
+        "total": "Total",
+        "addMore": "Añadir más",
+        "order": "Pedido",
+        "eat_in": "Comer aquí",
+        "to_go": "Para llevar"
+    },
+    "welcomePage": {
+        "hello": "HOLA",
+        "subtitle": "Descubre sabores frescos y experiencias gastronómicas inolvidables.",
+        "welcome": "Bienvenido",
+        "description": "Disfruta de platos artesanales con ingredientes frescos en un ambiente cálido y acogedor. Pide tus favoritos en solo unos clics.",
+        "orderNow": "Ordenar ahora"
+    },
+    "category": {
+        "Starters": "Entrantes",
+        "Soups": "Sopas",
+        "Salads": "Ensaladas",
+        "Sides": "Guarniciones",
+        "Mains": "Platos principales"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Pan tostado con tomate y albahaca."
+        },
+        "garlicBread": {
+            "name": "Pan de ajo",
+            "description": "Pan con mantequilla de ajo."
+        },
+        "tomatoSoup": {
+            "name": "Sopa de tomate",
+            "description": "Sopa cremosa de tomate."
+        },
+        "mushroomSoup": {
+            "name": "Sopa de champiñones",
+            "description": "Sopa rica de champiñones."
+        },
+        "greekSalad": {
+            "name": "Ensalada griega",
+            "description": "Verduras frescas con feta."
+        },
+        "caesarSalad": {
+            "name": "Ensalada César",
+            "description": "Clásica ensalada César."
+        },
+        "fries": {
+            "name": "Papas fritas",
+            "description": "Papas fritas crujientes."
+        },
+        "mashedPotatoes": {
+            "name": "Puré de papas",
+            "description": "Puré cremoso."
+        },
+        "chickenGrill": {
+            "name": "Pollo a la parrilla",
+            "description": "Pollo jugoso a la parrilla."
+        },
+        "beefSteak": {
+            "name": "Bistec de res",
+            "description": "Bistec jugoso."
+        }
+    },
+    "currency": "€"
+}

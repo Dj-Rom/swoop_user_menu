@@ -7,9 +7,16 @@ type ButtonProps = {
 
 export function Button({ path, text }: ButtonProps) {
     const navigate = useNavigate();
-
+    const isFullscreenSupported = document.documentElement.requestFullscreen !== undefined;
     return (
-        <button type="button" className={styles.button} onClick={() => navigate(path)}>
+        <button
+            type="button"
+            className={styles.button}
+            onClick={() => {
+                navigate(path);
+                isFullscreenSupported ? document.documentElement.requestFullscreen() : "";
+            }}
+        >
             {text}
         </button>
     );

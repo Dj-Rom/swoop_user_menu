@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "seasonal": "Seizoensmenu",
+        "main": "Hoofdmenu",
+        "drinks": "Dranken",
+        "desserts": "Desserts",
+        "viewOrder": "Bestelling bekijken",
+        "addToOrder": "Toevoegen aan bestelling",
+        "placeOrder": "Bestelling plaatsen",
+        "yourOrder": "Je bestelling",
+        "total": "Totaal",
+        "addMore": "Meer toevoegen",
+        "order": "Bestelling",
+        "eat_in": "Hier eten",
+        "to_go": "Afhalen"
+    },
+    "welcomePage": {
+        "hello": "HALLO",
+        "subtitle": "Ontdek frisse smaken en onvergetelijke eetervaringen.",
+        "welcome": "Welkom",
+        "description": "Geniet van ambachtelijke gerechten gemaakt met verse ingrediënten in een warme en gezellige sfeer. Bestel je favorieten in een paar klikken.",
+        "orderNow": "Nu bestellen"
+    },
+    "category": {
+        "Starters": "Voorgerechten",
+        "Soups": "Soepen",
+        "Salads": "Salades",
+        "Sides": "Bijgerechten",
+        "Mains": "Hoofdgerechten"
+    },
+
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Geroosterd brood met tomaat en basilicum."
+        },
+        "garlicBread": {
+            "name": "Knoflookbrood",
+            "description": "Brood met knoflookboter."
+        },
+        "tomatoSoup": {
+            "name": "Tomatensoep",
+            "description": "Romige tomatensoep."
+        },
+        "mushroomSoup": {
+            "name": "Champignonsoep",
+            "description": "Rijke champignonsoep."
+        },
+        "greekSalad": {
+            "name": "Griekse salade",
+            "description": "Verse groenten met feta."
+        },
+        "caesarSalad": {
+            "name": "Caesarsalade",
+            "description": "Klassieke Caesarsalade."
+        },
+        "fries": {
+            "name": "Friet",
+            "description": "Krokante friet."
+        },
+        "mashedPotatoes": {
+            "name": "Aardappelpuree",
+            "description": "Romige puree."
+        },
+        "chickenGrill": {
+            "name": "Gegrilde kip",
+            "description": "Sappige gegrilde kip."
+        },
+        "beefSteak": {
+            "name": "Biefstuk",
+            "description": "Sappige biefstuk."
+        }
+    },
+    "currency": "€"
+}

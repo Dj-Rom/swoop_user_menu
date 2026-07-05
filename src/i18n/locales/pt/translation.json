@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "seasonal": "Menu sazonal",
+        "main": "Menu principal",
+        "drinks": "Bebidas",
+        "desserts": "Sobremesas",
+        "viewOrder": "Ver pedido",
+        "addToOrder": "Adicionar ao pedido",
+        "placeOrder": "Fazer pedido",
+        "yourOrder": "Seu pedido",
+        "total": "Total",
+        "addMore": "Adicionar mais",
+        "order": "Pedido",
+        "eat_in": "Comer no local",
+        "to_go": "Para viagem"
+    },
+    "welcomePage": {
+        "hello": "OLÁ",
+        "subtitle": "Descubra sabores frescos e experiências gastronômicas inesquecíveis.",
+        "welcome": "Bem-vindo",
+        "description": "Aproveite pratos artesanais feitos com ingredientes frescos em um ambiente acolhedor. Peça seus favoritos em poucos cliques.",
+        "orderNow": "Pedir agora"
+    },
+    "category": {
+        "Starters": "Entradas",
+        "Soups": "Sopas",
+        "Salads": "Saladas",
+        "Sides": "Acompanhamentos",
+        "Mains": "Pratos principais"
+    },
+
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Pão tostado com tomate e manjericão."
+        },
+        "garlicBread": {
+            "name": "Pão de alho",
+            "description": "Pão com manteiga de alho."
+        },
+        "tomatoSoup": {
+            "name": "Sopa de tomate",
+            "description": "Sopa cremosa de tomate."
+        },
+        "mushroomSoup": {
+            "name": "Sopa de cogumelos",
+            "description": "Sopa rica de cogumelos."
+        },
+        "greekSalad": {
+            "name": "Salada grega",
+            "description": "Vegetais frescos com feta."
+        },
+        "caesarSalad": {
+            "name": "Salada Caesar",
+            "description": "Salada Caesar clássica."
+        },
+        "fries": {
+            "name": "Batatas fritas",
+            "description": "Batatas fritas crocantes."
+        },
+        "mashedPotatoes": {
+            "name": "Purê de batata",
+            "description": "Purê cremoso."
+        },
+        "chickenGrill": {
+            "name": "Frango grelhado",
+            "description": "Frango suculento grelhado."
+        },
+        "beefSteak": {
+            "name": "Bife de carne",
+            "description": "Bife suculento."
+        }
+    }
+}

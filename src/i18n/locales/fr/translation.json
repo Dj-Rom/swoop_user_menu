@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "seasonal": "Menu saisonnier",
+        "main": "Menu principal",
+        "drinks": "Boissons",
+        "desserts": "Desserts",
+        "viewOrder": "Voir la commande",
+        "addToOrder": "Ajouter à la commande",
+        "placeOrder": "Passer la commande",
+        "yourOrder": "Votre commande",
+        "total": "Total",
+        "addMore": "Ajouter plus",
+        "order": "Commande",
+        "eat_in": "Sur place",
+        "to_go": "À emporter"
+    },
+    "welcomePage": {
+        "hello": "BONJOUR",
+        "subtitle": "Découvrez des saveurs fraîches et des expériences culinaires inoubliables.",
+        "welcome": "Bienvenue",
+        "description": "Profitez de plats faits maison avec des ingrédients frais dans une atmosphère chaleureuse et accueillante. Commandez vos favoris en quelques clics.",
+        "orderNow": "Commander"
+    },
+    "category": {
+        "Starters": "Entrées",
+        "Soups": "Soupes",
+        "Salads": "Salades",
+        "Sides": "Accompagnements",
+        "Mains": "Plats principaux"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Pain grillé avec tomates et basilic."
+        },
+        "garlicBread": {
+            "name": "Pain à l’ail",
+            "description": "Pain avec beurre à l’ail."
+        },
+        "tomatoSoup": {
+            "name": "Soupe de tomate",
+            "description": "Soupe crémeuse à la tomate."
+        },
+        "mushroomSoup": {
+            "name": "Soupe aux champignons",
+            "description": "Soupe riche aux champignons."
+        },
+        "greekSalad": {
+            "name": "Salade grecque",
+            "description": "Légumes frais avec feta."
+        },
+        "caesarSalad": {
+            "name": "Salade César",
+            "description": "Salade César classique."
+        },
+        "fries": {
+            "name": "Frites",
+            "description": "Frites croustillantes."
+        },
+        "mashedPotatoes": {
+            "name": "Purée de pommes de terre",
+            "description": "Purée crémeuse."
+        },
+        "chickenGrill": {
+            "name": "Poulet grillé",
+            "description": "Poulet grillé juteux."
+        },
+        "beefSteak": {
+            "name": "Steak de bœuf",
+            "description": "Steak juteux."
+        }
+    },
+    "currency": "€"
+}

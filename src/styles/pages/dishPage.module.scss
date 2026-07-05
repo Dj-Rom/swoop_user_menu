@@ -1,0 +1,218 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fff;
+}
+.l_image {
+    position: relative;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 16px;
+    background: none;
+    z-index: 2;
+    width: 100%;
+}
+
+.backBtn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #171717;
+}
+
+.headerTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.langBtn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #171717;
+    cursor: pointer;
+}
+/* CONTENT */
+.content {
+    padding: 18px;
+    padding-bottom: 100px; // space for bottom bar
+}
+
+.title {
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 18px;
+    font-style: Bold;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.desc {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 16px;
+    height: 28px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 8px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    border-radius: 999px;
+    border-width: 1px;
+    border: 1px solid rgba(210, 216, 221, 1);
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+
+    letter-spacing: 0%;
+    color: rgba(92, 97, 105, 1);
+}
+
+.price {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+.totalPrice {
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+    min-width: 24px;
+    border-radius: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+
+    letter-spacing: -0.4px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* BOTTOM BAR */
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background: #fff;
+}
+
+.qty {
+    height: 48px;
+    display: flex;
+    width: 136px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 999px;
+    padding: 6px 12px;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(210, 216, 221, 1);
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+
+.qty button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #171717;
+}
+.qty button:disabled {
+    opacity: 0.3;
+}
+
+.addBtn {
+    display: flex;
+    width: 252px;
+    height: 48px;
+    min-width: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 12px;
+    margin: 12px 0 12px 12px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 1);
+    outline: none;
+    border: none;
+}
+
+@media (min-height: 844px) {
+    .l_image {
+        height: 360px;
+    }
+}

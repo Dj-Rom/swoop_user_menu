@@ -1,0 +1,313 @@
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fff;
+    padding-bottom: 96px;
+}
+
+.header {
+    position: sticky;
+    background: white;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 16px 0 16px;
+}
+
+.backBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: radius-full;
+    angle: 0 deg;
+    opacity: 1;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.headerTitle {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+
+.langBtn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #171717;
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+
+.pageTitle {
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 16px 0 16px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.empty {
+    padding: 24px 16px;
+    color: #737373;
+}
+
+.list {
+    list-style: none;
+
+    padding: 0 16px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 24px 0 0 0;
+}
+
+.index {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.thumb {
+    height: 112px;
+
+    object-fit: cover;
+    flex-shrink: 0;
+
+    width: 84px;
+    max-width: 84px;
+    height: 112px;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 112px;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.itemBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.deleteBtn {
+    width: 50px;
+    height: 36px;
+    min-width: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 6px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-radius: 999px;
+    border-width: 1px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(210, 216, 221, 1);
+}
+
+.qty {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 999px;
+    padding: 6px 12px;
+
+    button {
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 1);
+    }
+    button:disabled {
+        opacity: 0.3;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 500;
+        min-width: 12px;
+        text-align: center;
+    }
+}
+
+.error {
+    padding: 0 16px 8px;
+    font-size: 13px;
+    color: #dc2626;
+}
+
+.totalRow {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 16px 20px;
+    background: #fff;
+}
+
+.addMoreBtn {
+    height: 48px;
+
+    border: 1px solid rgba(210, 216, 221, 1);
+    background: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.orderBtn {
+    height: 48px;
+
+    border: none;
+    background: rgba(0, 0, 0, 1);
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+
+.countBadge {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.totalBadge {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 600;
+}

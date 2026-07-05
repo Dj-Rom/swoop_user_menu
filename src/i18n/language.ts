@@ -11,5 +11,5 @@ export const languages = [
     { code: "it", label: "Italiano", flag: "🇮🇹" },
     { code: "pt", label: "Português", flag: "🇵🇹" },
     { code: "nl", label: "Nederlands", flag: "🇳🇱" },
-    { code: "uk", label: "Українська", flag: "🇺🇦" }
+    { code: "ua", label: "Українська", flag: "🇺🇦" }
 ];

@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "seasonal": "Seasonal menu",
+        "main": "Main menu",
+        "drinks": "Drinks",
+        "desserts": "Desserts",
+        "viewOrder": "View order",
+        "order": "Order",
+        "addToOrder": "Add to order",
+        "placeOrder": "Place order",
+        "yourOrder": "Your order",
+        "total": "Total",
+        "addMore": "Add More",
+        "eat_in": "Eat in store",
+        "to_go": "To go"
+    },
+    "welcomePage": {
+        "hello": "HELLO",
+        "subtitle": "Discover fresh flavors and unforgettable dining experiences.",
+        "welcome": "Welcome",
+        "description": "Enjoy handcrafted dishes made with fresh ingredients in a warm and inviting atmosphere. Order your favorites in just a few taps.",
+        "orderNow": "Order now"
+    },
+    "category": {
+        "Starters": "Starters",
+        "Soups": "Soups",
+        "Salads": "Salads",
+        "Sides": "Side dishes",
+        "Mains": "Mains"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes and basil."
+        },
+        "garlicBread": {
+            "name": "Garlic Bread",
+            "description": "Bread with garlic butter."
+        },
+        "tomatoSoup": {
+            "name": "Tomato Soup",
+            "description": "Creamy tomato soup with basil."
+        },
+        "mushroomSoup": {
+            "name": "Mushroom Soup",
+            "description": "Rich mushroom flavor soup."
+        },
+        "greekSalad": {
+            "name": "Greek Salad",
+            "description": "Fresh vegetables with feta cheese."
+        },
+        "caesarSalad": {
+            "name": "Caesar Salad",
+            "description": "Classic Caesar salad with dressing."
+        },
+        "fries": {
+            "name": "Fries",
+            "description": "Crispy golden fries."
+        },
+        "mashedPotatoes": {
+            "name": "Mashed Potatoes",
+            "description": "Creamy mashed potatoes."
+        },
+        "chickenGrill": {
+            "name": "Grilled Chicken",
+            "description": "Juicy grilled chicken breast."
+        },
+        "beefSteak": {
+            "name": "Beef Steak",
+            "description": "Juicy beef steak cooked to perfection."
+        }
+    },
+    "currency": "€"
+}

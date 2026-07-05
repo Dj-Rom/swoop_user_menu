@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "seasonal": "Saisonmenü",
+        "main": "Hauptmenü",
+        "drinks": "Getränke",
+        "desserts": "Desserts",
+        "viewOrder": "Bestellung ansehen",
+        "addToOrder": "Zur Bestellung hinzufügen",
+        "placeOrder": "Bestellung aufgeben",
+        "yourOrder": "Deine Bestellung",
+        "total": "Gesamt",
+        "addMore": "Mehr hinzufügen",
+        "order": "Bestellung",
+        "eat_in": "Vor Ort",
+        "to_go": "Zum Mitnehmen"
+    },
+    "welcomePage": {
+        "hello": "HALLO",
+        "subtitle": "Entdecke frische Aromen und unvergessliche kulinarische Erlebnisse.",
+        "welcome": "Willkommen",
+        "description": "Genieße handgemachte Gerichte aus frischen Zutaten in einer warmen und einladenden Atmosphäre. Bestelle deine Favoriten in nur wenigen Klicks.",
+        "orderNow": "Jetzt bestellen"
+    },
+    "category": {
+        "Starters": "Vorspeisen",
+        "Soups": "Suppen",
+        "Salads": "Salate",
+        "Sides": "Beilagen",
+        "Mains": "Hauptgerichte"
+    },
+
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Geröstetes Brot mit Tomaten und Basilikum."
+        },
+        "garlicBread": {
+            "name": "Knoblauchbrot",
+            "description": "Brot mit Knoblauchbutter."
+        },
+        "tomatoSoup": {
+            "name": "Tomatensuppe",
+            "description": "Cremige Tomatensuppe."
+        },
+        "mushroomSoup": {
+            "name": "Pilzsuppe",
+            "description": "Reiche Pilzsuppe."
+        },
+        "greekSalad": {
+            "name": "Griechischer Salat",
+            "description": "Frisches Gemüse mit Feta."
+        },
+        "caesarSalad": {
+            "name": "Caesar Salat",
+            "description": "Klassischer Caesar Salat."
+        },
+        "fries": {
+            "name": "Pommes",
+            "description": "Knusprige Pommes."
+        },
+        "mashedPotatoes": {
+            "name": "Kartoffelpüree",
+            "description": "Cremiges Püree."
+        },
+        "chickenGrill": {
+            "name": "Gegrilltes Hähnchen",
+            "description": "Saftiges Grillhähnchen."
+        },
+        "beefSteak": {
+            "name": "Rindersteak",
+            "description": "Saftiges Steak."
+        }
+    },
+    "currency": "€"
+}

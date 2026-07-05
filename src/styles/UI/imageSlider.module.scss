@@ -1,0 +1,97 @@
+.slider {
+    position: relative;
+    inset: 0; // top:0, right:0, bottom:0, left:0
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sliderDish {
+    position: static; // обязательно, иначе .dots спозиционируется относительно body
+    width: 100%;
+
+    height: 384px;
+    aspect-ratio: 4 / 3; // фиксирует высоту контейнера под фото
+    overflow: hidden;
+    touch-action: pan-y;
+}
+
+.dotsDish {
+    top: 372px;
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 1;
+}
+
+.imageDish {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+
+    background-size: cover;
+    /* или contain */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block; // убирает "фантомный" отступ снизу, который дают inline-элементы
+}
+
+.slider {
+    touch-action: pan-y;
+}
+
+.image {
+    width: 100%;
+    height: 96%;
+    object-fit: cover;
+
+    background-size: cover;
+    /* или contain */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block; // убирает "фантомный" отступ снизу, который дают inline-элементы
+}
+
+.dots {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 1;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0.1;
+    cursor: pointer;
+
+    &.active {
+        opacity: 1;
+        transform: scale(1.15);
+    }
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+}

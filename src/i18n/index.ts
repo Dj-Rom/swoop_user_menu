@@ -13,10 +13,9 @@ import nl from "./locales/nl/translation.json";
 import uk from "./locales/uk/translation.json";
 
 const savedLang = localStorage.getItem("lang");
-
 const browserLang = navigator.language.split("-")[0];
 
-const defaultLang = savedLang || browserLang || "en";
+const defaultLang = savedLang ?? browserLang ?? "en";
 const resources = {
     en: { translation: en },
     ru: { translation: ru },
@@ -27,7 +26,7 @@ const resources = {
     it: { translation: it },
     pt: { translation: pt },
     nl: { translation: nl },
-    uk: { translation: uk }
+    ua: { translation: uk }
 };
 
 i18n.use(initReactI18next).init({
@@ -39,5 +38,31 @@ i18n.use(initReactI18next).init({
         escapeValue: false
     }
 });
+export async function loadLanguage(lang: string) {
+    const messages = await import(`./locales/${lang}/translation.json`);
 
+    if (!i18n.hasResourceBundle(lang, "translation")) {
+        i18n.addResourceBundle(lang, "translation", messages.default, true, true);
+    }
+
+    await i18n.changeLanguage(lang);
+}
+
+const supportedLanguages = ["en", "ru", "pl", "de", "fr", "es", "it", "pt", "nl", "uk"];
+
+export function preloadLanguages() {
+    setTimeout(() => {
+        const current = i18n.language.split("-")[0];
+
+        supportedLanguages
+            .filter((l) => l !== current)
+            .forEach((lang) => {
+                import(`./locales/${lang}/translation.json`).then((messages) => {
+                    if (!i18n.hasResourceBundle(lang, "translation")) {
+                        i18n.addResourceBundle(lang, "translation", messages.default, true, true);
+                    }
+                });
+            });
+    }, 5000); // ⏱ 5 seconds delay
+}
 export default i18n;

@@ -8,4 +8,18 @@ html,
 body,
 #root {
     height: 100%;
+    width: 100vw;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #e7e1e100;
+}
+body {
+    div {
+        background-color: white;
+    }
 }

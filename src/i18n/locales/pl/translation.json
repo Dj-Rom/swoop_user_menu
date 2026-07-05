@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "seasonal": "Menu sezonowe",
+        "main": "Menu główne",
+        "drinks": "Napoje",
+        "desserts": "Desery",
+        "viewOrder": "Zobacz zamówienie",
+        "addToOrder": "Dodaj do zamówienia",
+        "placeOrder": "Złóż zamówienie",
+        "yourOrder": "Twoje zamówienie",
+        "order": "Zamówienie",
+        "total": "Suma",
+        "addMore": "Dodaj więcej",
+        "eat_in": "Na miejscu",
+        "to_go": "Na wynos"
+    },
+    "welcomePage": {
+        "hello": "CZEŚĆ",
+        "subtitle": "Odkryj świeże smaki i niezapomniane doświadczenia kulinarne.",
+        "welcome": "Witamy",
+        "description": "Ciesz się ręcznie przygotowanymi daniami ze świeżych składników w ciepłej i przyjaznej atmosferze. Zamawiaj swoje ulubione w kilka kliknięć.",
+        "orderNow": "Zamów teraz"
+    },
+    "category": {
+        "Starters": "Przystawki",
+        "Soups": "Zupy",
+        "Salads": "Sałatki",
+        "Sides": "Dodatki",
+        "Mains": "Dania główne"
+    },
+
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Opieczony chleb z pomidorami i bazylią."
+        },
+        "garlicBread": {
+            "name": "Chleb czosnkowy",
+            "description": "Chleb z masłem czosnkowym."
+        },
+        "tomatoSoup": {
+            "name": "Zupa pomidorowa",
+            "description": "Kremowa zupa pomidorowa z bazylią."
+        },
+        "mushroomSoup": {
+            "name": "Zupa grzybowa",
+            "description": "Aromatyczna zupa grzybowa."
+        },
+        "greekSalad": {
+            "name": "Sałatka grecka",
+            "description": "Świeże warzywa z fetą."
+        },
+        "caesarSalad": {
+            "name": "Sałatka Cezar",
+            "description": "Klasyczna sałatka Cezar."
+        },
+        "fries": {
+            "name": "Frytki",
+            "description": "Chrupiące frytki."
+        },
+        "mashedPotatoes": {
+            "name": "Puree ziemniaczane",
+            "description": "Kremowe puree ziemniaczane."
+        },
+        "chickenGrill": {
+            "name": "Kurczak z grilla",
+            "description": "Soczysty grillowany kurczak."
+        },
+        "beefSteak": {
+            "name": "Stek wołowy",
+            "description": "Soczysty stek wołowy."
+        }
+    },
+    "currency": "zł"
+}

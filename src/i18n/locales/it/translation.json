@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "seasonal": "Menu stagionale",
+        "main": "Menu principale",
+        "drinks": "Bevande",
+        "desserts": "Dessert",
+        "viewOrder": "Visualizza ordine",
+        "addToOrder": "Aggiungi all'ordine",
+        "placeOrder": "Effettua ordine",
+        "yourOrder": "Il tuo ordine",
+        "total": "Totale",
+        "addMore": "Aggiungi altro",
+        "order": "Ordine",
+        "eat_in": "Mangiare qui",
+        "to_go": "Da asporto"
+    },
+    "welcomePage": {
+        "hello": "CIAO",
+        "subtitle": "Scopri sapori freschi ed esperienze culinarie indimenticabili.",
+        "welcome": "Benvenuto",
+        "description": "Gusta piatti artigianali preparati con ingredienti freschi in un'atmosfera calda e accogliente. Ordina i tuoi preferiti in pochi clic.",
+        "orderNow": "Ordina ora"
+    },
+    "category": {
+        "Starters": "Antipasti",
+        "Soups": "Zuppe",
+        "Salads": "Insalate",
+        "Sides": "Contorni",
+        "Mains": "Piatti principali"
+    },
+
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Pane tostato con pomodori e basilico."
+        },
+        "garlicBread": {
+            "name": "Pane all’aglio",
+            "description": "Pane con burro all’aglio."
+        },
+        "tomatoSoup": {
+            "name": "Zuppa di pomodoro",
+            "description": "Zuppa cremosa di pomodoro."
+        },
+        "mushroomSoup": {
+            "name": "Zuppa di funghi",
+            "description": "Zuppa ricca di funghi."
+        },
+        "greekSalad": {
+            "name": "Insalata greca",
+            "description": "Verdure fresche con feta."
+        },
+        "caesarSalad": {
+            "name": "Insalata Caesar",
+            "description": "Classica insalata Caesar."
+        },
+        "fries": {
+            "name": "Patatine fritte",
+            "description": "Patatine croccanti."
+        },
+        "mashedPotatoes": {
+            "name": "Purè di patate",
+            "description": "Purè cremoso."
+        },
+        "chickenGrill": {
+            "name": "Pollo alla griglia",
+            "description": "Pollo succoso alla griglia."
+        },
+        "beefSteak": {
+            "name": "Bistecca di manzo",
+            "description": "Bistecca succosa."
+        }
+    },
+    "currency": "€"
+}
