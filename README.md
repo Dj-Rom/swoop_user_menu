@@ -1,75 +1,65 @@
 # swoop_user_menu
 
-# React + TypeScript + Vite
+A React + TypeScript + Vite application for browsing a restaurant menu, selecting dishes, and placing an order flow with multilingual support.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project documentation
 
-Currently, two official plugins are available:
+- See [DO_NOT_REPEAT.md](DO_NOT_REPEAT.md) for guidelines on keeping the codebase reusable and avoiding duplication.
+- This project is licensed under the [MIT License](LICENSE).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Multi-language interface with translations in several languages
+- Menu browsing by category and navigation
+- Dish detail experience with image support
+- Order flow with a confirmation modal
+- Responsive UI built with React and SCSS modules
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- React 19
+- TypeScript
+- Vite
+- Redux Toolkit
+- React Router
+- i18next
+- Sass
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Project structure
 
-```js
-export default defineConfig([
-    globalIgnores(["dist"]),
-    {
-        files: ["**/*.{ts,tsx}"],
-        extends: [
-            // Other configs...
+- src/pages: main application pages such as Welcome, Menu, Dish, and Order
+- src/components: reusable UI, menu, and header components
+- src/data: menu content and category definitions
+- src/i18n: translations and language configuration
+- src/store: global state for the order flow
+- src/styles: SCSS modules grouped by feature
+- src/utils: helper functions
 
-            // Remove tseslint.configs.recommended and replace with this
-            tseslint.configs.recommendedTypeChecked,
-            // Alternatively, use this for stricter rules
-            tseslint.configs.strictTypeChecked,
-            // Optionally, add this for stylistic rules
-            tseslint.configs.stylisticTypeChecked
+## Getting started
 
-            // Other configs...
-        ],
-        languageOptions: {
-            parserOptions: {
-                project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-                tsconfigRootDir: import.meta.dirname
-            }
-            // other options...
-        }
-    }
-]);
-```
+1. Install dependencies:
+    ```bash
+    npm install
+    ```
+2. Start the development server:
+    ```bash
+    npm run dev
+    ```
+3. Build for production:
+    ```bash
+    npm run build
+    ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Available scripts
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+- npm run dev: start the Vite development server
+- npm run build: compile TypeScript and build the production bundle
+- npm run preview: preview the production build locally
+- npm run deploy: publish the build to GitHub Pages
 
-export default defineConfig([
-    globalIgnores(["dist"]),
-    {
-        files: ["**/*.{ts,tsx}"],
-        extends: [
-            // Other configs...
-            // Enable lint rules for React
-            reactX.configs["recommended-typescript"],
-            // Enable lint rules for React DOM
-            reactDom.configs.recommended
-        ],
-        languageOptions: {
-            parserOptions: {
-                project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-                tsconfigRootDir: import.meta.dirname
-            }
-            // other options...
-        }
-    }
-]);
-```
+## Contribution guidelines
+
+- Follow the principles in [DO_NOT_REPEAT.md](DO_NOT_REPEAT.md).
+- Keep components small and reusable.
+- Prefer updating shared data and translations over duplicating content.
+- Before introducing new logic, check whether an existing utility or component can be reused.
