@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import styles from "../styles/OrderReceivedModal.module.scss";
+import styles from "../styles/orderReceivedModal.module.scss";
 interface Props {
     onClose: () => void;
 }
