@@ -12,7 +12,20 @@
         "addMore": "Aggiungi altro",
         "order": "Ordine",
         "eat_in": "Mangiare qui",
-        "to_go": "Da asporto"
+        "to_go": "Da asporto",
+        "callWaiter": "Chiamare un cameriere",
+        "consultation": "Consulenza",
+        "payment": "Pagamento",
+        "additionToOrder": "Aggiungi all'ordine",
+        "other": "Altro",
+        "toPay": "da pagare",
+        "totalAmount": "L'importo totale",
+        "splitEvenly": "Dividere equamente",
+        "selectItems": "Seleziona articoli",
+        "selectCustomAmount": "Seleziona un importo personalizzato",
+        "addTipForStaff": "Aggiungi una mancia per il nostro personale",
+        "noTip": "Nessuna mancia",
+        "enterOtherAmount": "Inserisci un altro importo"
     },
     "welcomePage": {
         "hello": "CIAO",

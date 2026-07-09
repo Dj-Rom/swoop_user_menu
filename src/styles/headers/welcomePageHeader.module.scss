@@ -15,8 +15,10 @@
     display: flex;
     width: 100%;
     padding-right: 26px;
+    overflow: hidden;
     height: 52px;
     angle: 0 deg;
+    padding-top: 16px;
     opacity: 1;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +33,7 @@
     padding: 20px 16px 0px 0px;
     background: #ffffff;
     z-index: 1000;
+    overflow: hidden;
 }
 .un {
     position: absolute;

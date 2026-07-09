@@ -30,7 +30,9 @@ export function MenuPage() {
     }, [activeCategory]);
     const scrollIntoView = () => {
         const element = document.getElementById(activeCategory.split(".")[1]);
-        const top = element!.getBoundingClientRect().top + window.scrollY - 164;
+        if (!element) return;
+
+        const top = element.getBoundingClientRect().top + window.scrollY - 164;
 
         window.scrollTo({
             top,

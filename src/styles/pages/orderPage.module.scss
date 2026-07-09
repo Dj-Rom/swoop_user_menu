@@ -8,13 +8,15 @@
 }
 
 .header {
-    position: sticky;
+    position: fixed;
     background: white;
     top: 0px;
+    width: 100%;
     display: flex;
     align-items: center;
+    overflow: hidden;
     justify-content: space-between;
-    margin: 12px 16px 0 16px;
+    padding: 12px 16px 0 16px;
 }
 
 .backBtn {
@@ -83,7 +85,7 @@
 
 .list {
     list-style: none;
-
+    margin-bottom: 180px;
     padding: 0 16px;
 }
 

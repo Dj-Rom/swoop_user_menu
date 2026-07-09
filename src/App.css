@@ -10,12 +10,17 @@ body,
     height: 100%;
     width: 100vw;
 }
+#root {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
 }
 html {
+    overflow-x: hidden;
     background-color: #e7e1e100;
 }
 body {

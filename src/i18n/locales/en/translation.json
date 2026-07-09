@@ -12,7 +12,20 @@
         "total": "Total",
         "addMore": "Add More",
         "eat_in": "Eat in store",
-        "to_go": "To go"
+        "to_go": "To go",
+        "callWaiter": "Call a waiter",
+        "consultation": "Consultation",
+        "payment": "Payment",
+        "additionToOrder": "Addition to order",
+        "other": "Other",
+        "toPay": "to pay",
+        "totalAmount": "The total amount",
+        "splitEvenly": "Split evenly",
+        "selectItems": "Select items",
+        "selectCustomAmount": "Select a custom amount",
+        "addTipForStaff": "Add a tip for our staff",
+        "noTip": "No tip",
+        "enterOtherAmount": "Enter other amount"
     },
     "welcomePage": {
         "hello": "HELLO",

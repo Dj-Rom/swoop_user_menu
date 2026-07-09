@@ -1,25 +1,77 @@
-# Do Not Repeat
+# Development Guidelines
 
-This project should stay simple, reusable, and maintainable.
+This project is proprietary software developed by **Aleh Kapusta**.
 
-## Principles
+The goal is to keep the codebase clean, reusable, maintainable, and easy to extend without unnecessary duplication.
 
-- Keep shared UI in reusable components.
-- Avoid duplicating styles, copy, or logic across pages.
-- Prefer configuration-driven content over hardcoded repeated blocks.
-- If the same pattern appears more than once, extract it into a shared component, hook, or utility.
-- Keep translations and content centralized in the i18n and data folders.
+---
 
-## Practical Rules
+## Core Principles
 
-1. Before adding a new component, check whether one already exists that can be reused.
-2. If a section has similar structure to another page, extract the shared structure instead of copying it.
-3. Keep business logic in one place and reuse it from the UI layer.
-4. When updating shared content, do it once and let all consumers benefit.
+- Build reusable components whenever possible.
+- Keep business logic separated from UI.
+- Avoid duplicated code, styles, translations, and assets.
+- Prefer configuration-driven solutions over hardcoded values.
+- Write readable, maintainable, and scalable code.
 
-## Reminder
+---
 
-If you are about to copy-paste code, stop and ask:
-- Can this be extracted?
-- Can this be made configurable?
-- Can this be reused by another screen?
+## Code Standards
+
+### Reuse
+
+- Reuse existing components before creating new ones.
+- Extract repeated UI into shared components.
+- Move repeated logic into custom hooks or utility functions.
+- Share common types and interfaces.
+
+### Structure
+
+- Keep components focused on a single responsibility.
+- Keep files organized by feature.
+- Use descriptive names for files, components, and functions.
+- Remove dead code and unused dependencies.
+
+### Styling
+
+- Avoid duplicated CSS.
+- Use shared variables and mixins.
+- Keep styling modular using SCSS Modules.
+
+### Internationalization
+
+- Store all user-facing text inside the `src/i18n` directory.
+- Never hardcode translations inside components.
+- Reuse existing translation keys whenever possible.
+
+### Performance
+
+- Avoid unnecessary renders.
+- Reuse state where appropriate.
+- Keep components lightweight.
+
+---
+
+## Before Adding New Code
+
+Ask yourself:
+
+- Does something similar already exist?
+- Can this be reused?
+- Can this be extracted into a shared component?
+- Can it be configured instead of duplicated?
+- Will another part of the application benefit from this implementation?
+
+If the answer is **yes**, reuse or refactor instead of copying code.
+
+---
+
+## Ownership
+
+This repository contains proprietary software.
+
+Copyright © 2026 Aleh Kapusta
+
+All Rights Reserved.
+
+No part of this project, including its source code, architecture, design, user interface, assets, documentation, or workflows may be copied, redistributed, modified, or used without prior written permission from the copyright holder.

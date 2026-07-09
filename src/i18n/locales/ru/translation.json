@@ -12,7 +12,20 @@
         "order": "Заказ",
         "addMore": "Добавить ещё",
         "eat_in": "В заведении",
-        "to_go": "С собой"
+        "to_go": "С собой",
+        "callWaiter": "Позвать официанта",
+        "consultation": "Консультация",
+        "payment": "Оплата",
+        "additionToOrder": "Добавить к заказу",
+        "other": "Другое",
+        "toPay": "к оплате",
+        "totalAmount": "Общая сумма",
+        "splitEvenly": "Разделить поровну",
+        "selectItems": "Выбрать блюда",
+        "selectCustomAmount": "Указать свою сумму",
+        "addTipForStaff": "Добавить чаевые персоналу",
+        "noTip": "Без чаевых",
+        "enterOtherAmount": "Ввести другую сумму"
     },
     "welcomePage": {
         "hello": "ПРИВЕТ",

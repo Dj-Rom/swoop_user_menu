@@ -12,7 +12,20 @@
         "addMore": "Додати ще",
         "order": "Замовлення",
         "eat_in": "У закладі",
-        "to_go": "Із собою"
+        "to_go": "Із собою",
+        "callWaiter": "Покликати офіціанта",
+        "consultation": "Консультація",
+        "payment": "Оплата",
+        "additionToOrder": "Додати до замовлення",
+        "other": "Інше",
+        "toPay": "до сплати",
+        "totalAmount": "Загальна сума",
+        "splitEvenly": "Поділити порівну",
+        "selectItems": "Вибрати страви",
+        "selectCustomAmount": "Вказати власну суму",
+        "addTipForStaff": "Додати чайові для персоналу",
+        "noTip": "Без чайових",
+        "enterOtherAmount": "Ввести іншу суму"
     },
     "welcomePage": {
         "hello": "ПРИВІТ",

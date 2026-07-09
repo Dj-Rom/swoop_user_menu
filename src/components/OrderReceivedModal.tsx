@@ -1,13 +1,20 @@
 import { useRef, useState } from "react";
 import styles from "../styles/orderReceivedModal.module.scss";
+import { openModalCallWindow } from "../store/slices/ModalCallWindow";
+import { useDispatch } from "react-redux";
+import { closeOrderReceivedModal } from "../store/slices/orderReceivedModalSlice";
 interface Props {
     onClose: () => void;
 }
 
 export function OrderReceivedModal({ onClose }: Props) {
     const sheetRef = useRef<HTMLDivElement>(null);
+    const dispatch = useDispatch();
     const serverName = "Maria";
-    const onCallServer = () => {};
+    const onCallServer = () => {
+        dispatch(closeOrderReceivedModal());
+        dispatch(openModalCallWindow());
+    };
     const startY = useRef(0);
     const [translateY, setTranslateY] = useState(0);
 

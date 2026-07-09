@@ -8,12 +8,14 @@ import Plus from "../../public/assets/icons/Plus.svg";
 import { normalizeAssetPath } from "../utils/helpers";
 import type { AppDispatch, RootState } from "../store/store";
 import { OrderReceivedModal } from "../components/OrderReceivedModal";
+import { ModalCallWindow } from "../components/ModalCallWindow";
 import {
     removeFromOrder,
     incrementItemQty,
     decrementItemQty,
     selectTotalPrice
 } from "../store/slices/orderSlice";
+import { closeModalCallWindow } from "../store/slices/ModalCallWindow";
 import {
     openOrderReceivedModal,
     closeOrderReceivedModal
@@ -28,6 +30,7 @@ export function OrderPage() {
 
     const items = useSelector((state: RootState) => state.order.items);
     const isOpen = useSelector((state: RootState) => state.orderReceivedModal.isOpen);
+    const isOpenCall = useSelector((state: RootState) => state.modalCallWindow.isOpen);
     const loading = useSelector((state: RootState) => state.order.loading);
     const error = useSelector((state: RootState) => state.order.error);
     const totalPrice = useSelector(selectTotalPrice);
@@ -144,6 +147,7 @@ export function OrderPage() {
                     </button>
                 </div>
             </section>
+            {isOpenCall && <ModalCallWindow onClose={() => dispatch(closeModalCallWindow())} />}
             {isOpen && <OrderReceivedModal onClose={() => dispatch(closeOrderReceivedModal())} />}
         </>
     );

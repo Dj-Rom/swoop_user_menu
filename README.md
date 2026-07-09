@@ -1,21 +1,24 @@
-# swoop_user_menu
+# Swoop User Menu
 
-A React + TypeScript + Vite application for browsing a restaurant menu, selecting dishes, and placing an order flow with multilingual support.
+A modern restaurant digital menu application built with React, TypeScript, and Vite.
 
-## Project documentation
+## About
 
-- See [DO_NOT_REPEAT.md](DO_NOT_REPEAT.md) for guidelines on keeping the codebase reusable and avoiding duplication.
-- This project is licensed under the [MIT License](LICENSE).
+Swoop User Menu is a proprietary restaurant menu system that allows customers to browse dishes, view product details, and place orders through a modern multilingual interface.
 
 ## Features
 
-- Multi-language interface with translations in several languages
-- Menu browsing by category and navigation
-- Dish detail experience with image support
-- Order flow with a confirmation modal
-- Responsive UI built with React and SCSS modules
+- 🌍 Multi-language support
+- 🍽️ Restaurant menu browsing
+- 📂 Category navigation
+- 📸 Dish images and descriptions
+- 🛒 Ordering workflow
+- 💳 Payment flow
+- 👨‍🍳 Call waiter functionality
+- 📱 Responsive design
+- ⚡ Fast performance powered by Vite
 
-## Tech stack
+## Technology
 
 - React 19
 - TypeScript
@@ -23,43 +26,63 @@ A React + TypeScript + Vite application for browsing a restaurant menu, selectin
 - Redux Toolkit
 - React Router
 - i18next
-- Sass
+- Sass (SCSS Modules)
 
-## Project structure
+## Project Structure
 
-- src/pages: main application pages such as Welcome, Menu, Dish, and Order
-- src/components: reusable UI, menu, and header components
-- src/data: menu content and category definitions
-- src/i18n: translations and language configuration
-- src/store: global state for the order flow
-- src/styles: SCSS modules grouped by feature
-- src/utils: helper functions
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── data/
+ ├── i18n/
+ ├── store/
+ ├── styles/
+ └── utils/
+```
 
-## Getting started
+## Getting Started
 
-1. Install dependencies:
-    ```bash
-    npm install
-    ```
-2. Start the development server:
-    ```bash
-    npm run dev
-    ```
-3. Build for production:
-    ```bash
-    npm run build
-    ```
+Install dependencies:
 
-## Available scripts
+```bash
+npm install
+```
 
-- npm run dev: start the Vite development server
-- npm run build: compile TypeScript and build the production bundle
-- npm run preview: preview the production build locally
-- npm run deploy: publish the build to GitHub Pages
+Start the development server:
 
-## Contribution guidelines
+```bash
+npm run dev
+```
 
-- Follow the principles in [DO_NOT_REPEAT.md](DO_NOT_REPEAT.md).
-- Keep components small and reusable.
-- Prefer updating shared data and translations over duplicating content.
-- Before introducing new logic, check whether an existing utility or component can be reused.
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+Deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## License
+
+**Copyright © 2026 Aleh Kapusta**
+
+All Rights Reserved.
+
+This software, including its source code, design, user interface, graphics, workflows, concepts, and documentation, is proprietary.
+
+No part of this project may be copied, modified, distributed, published, reverse engineered, or used to create derivative works without prior written permission from the copyright holder.
+
+**Author:** Aleh Kapusta  
+**Designer:** Sviatlana Kapusta  
+**Contact:** AlehKapusta@gmail.com

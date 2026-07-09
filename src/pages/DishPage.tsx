@@ -23,7 +23,7 @@ export function DishPage() {
     const dish = Object.values(menuData)
         .flat()
         .find((d) => d.id === id);
-
+    console.log(dish);
     if (!dish) return <div>Dish not found</div>;
 
     return (

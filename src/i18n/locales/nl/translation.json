@@ -12,7 +12,20 @@
         "addMore": "Meer toevoegen",
         "order": "Bestelling",
         "eat_in": "Hier eten",
-        "to_go": "Afhalen"
+        "to_go": "Afhalen",
+        "callWaiter": "Ober roepen",
+        "consultation": "Advies",
+        "payment": "Betaling",
+        "additionToOrder": "Toevoegen aan bestelling",
+        "other": "Overig",
+        "toPay": "te betalen",
+        "totalAmount": "Het totaalbedrag",
+        "splitEvenly": "Gelijk verdelen",
+        "selectItems": "Artikelen selecteren",
+        "selectCustomAmount": "Aangepast bedrag kiezen",
+        "addTipForStaff": "Geef een fooi aan ons personeel",
+        "noTip": "Geen fooi",
+        "enterOtherAmount": "Ander bedrag invoeren"
     },
     "welcomePage": {
         "hello": "HALLO",

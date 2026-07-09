@@ -12,7 +12,20 @@
         "addMore": "Adicionar mais",
         "order": "Pedido",
         "eat_in": "Comer no local",
-        "to_go": "Para viagem"
+        "to_go": "Para viagem",
+        "callWaiter": "Chamar um empregado de mesa",
+        "consultation": "Consulta",
+        "payment": "Pagamento",
+        "additionToOrder": "Adicionar ao pedido",
+        "other": "Outro",
+        "toPay": "a pagar",
+        "totalAmount": "O valor total",
+        "splitEvenly": "Dividir igualmente",
+        "selectItems": "Selecionar itens",
+        "selectCustomAmount": "Selecionar um valor personalizado",
+        "addTipForStaff": "Adicionar uma gorjeta para nossa equipe",
+        "noTip": "Sem gorjeta",
+        "enterOtherAmount": "Inserir outro valor"
     },
     "welcomePage": {
         "hello": "OLÁ",

@@ -12,7 +12,20 @@
         "addMore": "Ajouter plus",
         "order": "Commande",
         "eat_in": "Sur place",
-        "to_go": "À emporter"
+        "to_go": "À emporter",
+        "callWaiter": "Appeler un serveur",
+        "consultation": "Conseil",
+        "payment": "Paiement",
+        "additionToOrder": "Ajouter à la commande",
+        "other": "Autre",
+        "toPay": "à payer",
+        "totalAmount": "Le montant total",
+        "splitEvenly": "Partager équitablement",
+        "selectItems": "Sélectionner des articles",
+        "selectCustomAmount": "Choisir un montant personnalisé",
+        "addTipForStaff": "Ajouter un pourboire pour notre personnel",
+        "noTip": "Pas de pourboire",
+        "enterOtherAmount": "Saisir un autre montant"
     },
     "welcomePage": {
         "hello": "BONJOUR",

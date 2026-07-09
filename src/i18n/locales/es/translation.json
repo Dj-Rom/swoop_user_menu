@@ -12,7 +12,20 @@
         "addMore": "Añadir más",
         "order": "Pedido",
         "eat_in": "Comer aquí",
-        "to_go": "Para llevar"
+        "to_go": "Para llevar",
+        "callWaiter": "Llamar a un camarero",
+        "consultation": "Consulta",
+        "payment": "Pago",
+        "additionToOrder": "Añadir al pedido",
+        "other": "Otro",
+        "toPay": "por pagar",
+        "totalAmount": "El importe total",
+        "splitEvenly": "Dividir por igual",
+        "selectItems": "Seleccionar artículos",
+        "selectCustomAmount": "Seleccionar un importe personalizado",
+        "addTipForStaff": "Añadir una propina para nuestro personal",
+        "noTip": "Sin propina",
+        "enterOtherAmount": "Introducir otro importe"
     },
     "welcomePage": {
         "hello": "HOLA",

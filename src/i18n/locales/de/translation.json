@@ -12,7 +12,20 @@
         "addMore": "Mehr hinzufügen",
         "order": "Bestellung",
         "eat_in": "Vor Ort",
-        "to_go": "Zum Mitnehmen"
+        "to_go": "Zum Mitnehmen",
+        "callWaiter": "Kellner rufen",
+        "consultation": "Beratung",
+        "payment": "Bezahlung",
+        "additionToOrder": "Zur Bestellung hinzufügen",
+        "other": "Sonstiges",
+        "toPay": "zu bezahlen",
+        "totalAmount": "Der Gesamtbetrag",
+        "splitEvenly": "Gleichmäßig aufteilen",
+        "selectItems": "Artikel auswählen",
+        "selectCustomAmount": "Benutzerdefinierten Betrag wählen",
+        "addTipForStaff": "Trinkgeld für unser Personal hinzufügen",
+        "noTip": "Kein Trinkgeld",
+        "enterOtherAmount": "Anderen Betrag eingeben"
     },
     "welcomePage": {
         "hello": "HALLO",

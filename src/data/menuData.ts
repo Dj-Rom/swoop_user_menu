@@ -68,7 +68,7 @@ export const menuData: Record<Category, Dish[]> = {
         },
         {
             id: "caesar-salad",
-            photo: "public/assets/dish_photos/caesar-salad.png",
+            photo: ["public/assets/dish_photos/caesar-salad.png"],
             nameKey: "menu.caesarSalad.name",
             descriptionKey: "menu.caesarSalad.description",
             price: 8

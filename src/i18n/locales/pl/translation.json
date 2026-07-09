@@ -12,7 +12,20 @@
         "total": "Suma",
         "addMore": "Dodaj więcej",
         "eat_in": "Na miejscu",
-        "to_go": "Na wynos"
+        "to_go": "Na wynos",
+        "callWaiter": "Wezwij kelnera",
+        "consultation": "Konsultacja",
+        "payment": "Płatność",
+        "additionToOrder": "Dodaj do zamówienia",
+        "other": "Inne",
+        "toPay": "do zapłaty",
+        "totalAmount": "Całkowita kwota",
+        "splitEvenly": "Podziel po równo",
+        "selectItems": "Wybierz pozycje",
+        "selectCustomAmount": "Wybierz własną kwotę",
+        "addTipForStaff": "Dodaj napiwek dla naszego personelu",
+        "noTip": "Bez napiwku",
+        "enterOtherAmount": "Wprowadź inną kwotę"
     },
     "welcomePage": {
         "hello": "CZEŚĆ",
