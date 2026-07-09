@@ -1,15 +1,17 @@
 import { useRef, useState } from "react";
 import styles from "../styles/orderReceivedModal.module.scss";
 import { useTranslation } from "react-i18next";
-import { useDispatch } from "react-redux";
-import { onConsultation, openModalPaymentWindow } from "../store/slices/modalCallWindow";
+import { useDispatch, useSelector } from "react-redux";
+import { onConsultation } from "../store/slices/modalCallWindow";
+import { selectTotalPrice } from "../store/slices/orderSlice";
 interface Props {
     onClose: () => void;
 }
-export function ModalCallWindow({ onClose }: Props) {
+export function ModalPaymentWindow({ onClose }: Props) {
     const sheetRef = useRef<HTMLDivElement>(null);
     const { t } = useTranslation();
     const dispatch = useDispatch();
+    const totalPrice = useSelector(selectTotalPrice);
     const startY = useRef(0);
     const [translateY, setTranslateY] = useState(0);
 
@@ -53,8 +55,9 @@ export function ModalCallWindow({ onClose }: Props) {
                     onTouchEnd={handleTouchEnd}
                 >
                     <div className={styles.handle} />
-                    <h2 className={styles.modalCallWindowh2}>{t("nav.callWaiter")}</h2>
-
+                    <h2 className={styles.modalCallWindowh2}>
+                        {totalPrice + "€ " + t("nav.toPay")}
+                    </h2>
                     <button
                         type="button"
                         className={styles.primaryButton}
@@ -63,25 +66,37 @@ export function ModalCallWindow({ onClose }: Props) {
                             onClose;
                         }}
                     >
-                        {t("nav.consultation")}
+                        {t("nav.totalAmount")}
                     </button>
-
                     <button
                         type="button"
                         className={styles.primaryButton}
                         onClick={() => {
-                            dispatch(openModalPaymentWindow());
+                            dispatch(onConsultation());
                             onClose;
                         }}
                     >
-                        {t("nav.payment")}
+                        {t("nav.splitEvenly")}
+                    </button>{" "}
+                    <button
+                        type="button"
+                        className={styles.primaryButton}
+                        onClick={() => {
+                            dispatch(onConsultation());
+                            onClose;
+                        }}
+                    >
+                        {t("nav.selectItems")}
                     </button>
-
-                    <button type="button" className={styles.primaryButton} onClick={onClose}>
-                        {t("nav.additionToOrder")}
-                    </button>
-                    <button type="button" className={styles.primaryButton} onClick={onClose}>
-                        {t("nav.other")}
+                    <button
+                        type="button"
+                        className={styles.primaryButton}
+                        onClick={() => {
+                            dispatch(onConsultation());
+                            onClose;
+                        }}
+                    >
+                        {t("nav.selectCustomAmount")}
                     </button>
                 </div>
             </div>

@@ -27,6 +27,13 @@
         "noTip": "Nessuna mancia",
         "enterOtherAmount": "Inserisci un altro importo"
     },
+    "orderSuccess": {
+        "thankYou": "Grazie per il tuo ordine!",
+        "serverReceived": "Il tuo cameriere {{name}} ha ricevuto il tuo ordine.",
+        "questions": "Se hai domande, non esitare a chiamare il tuo cameriere.",
+        "callServer": "Chiama il cameriere",
+        "gotIt": "Ho capito"
+    },
     "welcomePage": {
         "hello": "CIAO",
         "subtitle": "Scopri sapori freschi ed esperienze culinarie indimenticabili.",

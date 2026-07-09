@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "季節限定メニュー",
+        "main": "メインメニュー",
+        "drinks": "ドリンク",
+        "desserts": "デザート",
+        "viewOrder": "注文を確認",
+        "addToOrder": "注文に追加",
+        "placeOrder": "注文を確定",
+        "yourOrder": "ご注文内容",
+        "total": "合計",
+        "addMore": "さらに追加",
+        "order": "注文",
+        "eat_in": "店内で食べる",
+        "to_go": "テイクアウト",
+        "callWaiter": "スタッフを呼ぶ",
+        "consultation": "相談",
+        "payment": "お支払い",
+        "additionToOrder": "注文に追加",
+        "other": "その他",
+        "toPay": "お支払い金額",
+        "totalAmount": "合計金額",
+        "splitEvenly": "均等に分ける",
+        "selectItems": "商品を選択",
+        "selectCustomAmount": "金額を指定",
+        "addTipForStaff": "スタッフへのチップを追加",
+        "noTip": "チップなし",
+        "enterOtherAmount": "別の金額を入力"
+    },
+    "orderSuccess": {
+        "thankYou": "ご注文ありがとうございます！",
+        "serverReceived": "担当スタッフの{{name}}がご注文を受け取りました。",
+        "questions": "ご不明な点がございましたら、スタッフをお呼びください。",
+        "callServer": "スタッフを呼ぶ",
+        "gotIt": "了解しました"
+    },
+    "welcomePage": {
+        "hello": "こんにちは",
+        "subtitle": "新鮮な味わいと忘れられない食体験をお楽しみください。",
+        "welcome": "ようこそ",
+        "description": "新鮮な食材を使った手作り料理を、温かく心地よい雰囲気の中でお楽しみください。数回のタップでお気に入りの料理をご注文いただけます。",
+        "orderNow": "今すぐ注文"
+    },
+    "category": {
+        "Starters": "前菜",
+        "Soups": "スープ",
+        "Salads": "サラダ",
+        "Sides": "サイドメニュー",
+        "Mains": "メイン料理"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "ブルスケッタ",
+            "description": "トマトとバジルをのせたトーストパン。"
+        },
+        "garlicBread": {
+            "name": "ガーリックブレッド",
+            "description": "ガーリックバターを使ったパン。"
+        },
+        "tomatoSoup": {
+            "name": "トマトスープ",
+            "description": "クリーミーなトマトスープ。"
+        },
+        "mushroomSoup": {
+            "name": "きのこスープ",
+            "description": "濃厚なきのこスープ。"
+        },
+        "greekSalad": {
+            "name": "ギリシャ風サラダ",
+            "description": "新鮮な野菜とフェタチーズのサラダ。"
+        },
+        "caesarSalad": {
+            "name": "シーザーサラダ",
+            "description": "クラシックなシーザーサラダ。"
+        },
+        "fries": {
+            "name": "フライドポテト",
+            "description": "カリカリのフライドポテト。"
+        },
+        "mashedPotatoes": {
+            "name": "マッシュポテト",
+            "description": "クリーミーなポテトピューレ。"
+        },
+        "chickenGrill": {
+            "name": "グリルチキン",
+            "description": "ジューシーなグリルチキン。"
+        },
+        "beefSteak": {
+            "name": "ビーフステーキ",
+            "description": "ジューシーなステーキ。"
+        }
+    },
+    "currency": "€"
+}

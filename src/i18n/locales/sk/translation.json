@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "Sezónne menu",
+        "main": "Hlavné menu",
+        "drinks": "Nápoje",
+        "desserts": "Dezerty",
+        "viewOrder": "Zobraziť objednávku",
+        "addToOrder": "Pridať k objednávke",
+        "placeOrder": "Odoslať objednávku",
+        "yourOrder": "Vaša objednávka",
+        "total": "Celkom",
+        "addMore": "Pridať ďalšie",
+        "order": "Objednávka",
+        "eat_in": "Na mieste",
+        "to_go": "So sebou",
+        "callWaiter": "Privolať čašníka",
+        "consultation": "Konzultácia",
+        "payment": "Platba",
+        "additionToOrder": "Pridať k objednávke",
+        "other": "Iné",
+        "toPay": "na zaplatenie",
+        "totalAmount": "Celková suma",
+        "splitEvenly": "Rozdeliť rovnomerne",
+        "selectItems": "Vybrať položky",
+        "selectCustomAmount": "Vybrať vlastnú sumu",
+        "addTipForStaff": "Pridať sprepitné pre personál",
+        "noTip": "Bez sprepitného",
+        "enterOtherAmount": "Zadať inú sumu"
+    },
+    "welcomePage": {
+        "hello": "AHOJ",
+        "subtitle": "Objavte čerstvé chute a nezabudnuteľné kulinárske zážitky.",
+        "welcome": "Vitajte",
+        "description": "Vychutnajte si domáce jedlá z čerstvých surovín v príjemnej a útulnej atmosfére. Objednajte si svoje obľúbené jedlá len niekoľkými kliknutiami.",
+        "orderNow": "Objednať teraz"
+    },
+    "orderSuccess": {
+        "thankYou": "Ďakujeme za vašu objednávku!",
+        "serverReceived": "Váš čašník {{name}} prijal vašu objednávku.",
+        "questions": "Ak máte otázky, môžete zavolať čašníka.",
+        "callServer": "Privolať čašníka",
+        "gotIt": "Rozumiem"
+    },
+    "category": {
+        "Starters": "Predjedlá",
+        "Soups": "Polievky",
+        "Salads": "Šaláty",
+        "Sides": "Prílohy",
+        "Mains": "Hlavné jedlá"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Opečený chlieb s paradajkami a bazalkou."
+        },
+        "garlicBread": {
+            "name": "Cesnakový chlieb",
+            "description": "Chlieb s cesnakovým maslom."
+        },
+        "tomatoSoup": {
+            "name": "Paradajková polievka",
+            "description": "Krémová paradajková polievka."
+        },
+        "mushroomSoup": {
+            "name": "Hubová polievka",
+            "description": "Bohatá hubová polievka."
+        },
+        "greekSalad": {
+            "name": "Grécky šalát",
+            "description": "Čerstvá zelenina so syrom feta."
+        },
+        "caesarSalad": {
+            "name": "Caesar šalát",
+            "description": "Klasický Caesar šalát."
+        },
+        "fries": {
+            "name": "Hranolky",
+            "description": "Chrumkavé hranolky."
+        },
+        "mashedPotatoes": {
+            "name": "Zemiaková kaša",
+            "description": "Krémová zemiaková kaša."
+        },
+        "chickenGrill": {
+            "name": "Grilované kurča",
+            "description": "Šťavnaté grilované kurča."
+        },
+        "beefSteak": {
+            "name": "Hovädzí steak",
+            "description": "Šťavnatý steak."
+        }
+    },
+    "currency": "€"
+}

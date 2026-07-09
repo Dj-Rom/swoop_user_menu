@@ -27,6 +27,13 @@
         "noTip": "Geen fooi",
         "enterOtherAmount": "Ander bedrag invoeren"
     },
+    "orderSuccess": {
+        "thankYou": "Bedankt voor uw bestelling!",
+        "serverReceived": "Uw ober {{name}} heeft uw bestelling ontvangen.",
+        "questions": "Als u vragen heeft, kunt u altijd uw ober oproepen.",
+        "callServer": "Ober oproepen",
+        "gotIt": "Begrepen"
+    },
     "welcomePage": {
         "hello": "HALLO",
         "subtitle": "Ontdek frisse smaken en onvergetelijke eetervaringen.",

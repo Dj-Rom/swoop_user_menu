@@ -1,8 +1,9 @@
 import { useRef, useState } from "react";
 import styles from "../styles/orderReceivedModal.module.scss";
-import { openModalCallWindow } from "../store/slices/ModalCallWindow";
+import { openModalCallWindow } from "../store/slices/modalCallWindow";
 import { useDispatch } from "react-redux";
 import { closeOrderReceivedModal } from "../store/slices/orderReceivedModalSlice";
+import { useTranslation } from "react-i18next";
 interface Props {
     onClose: () => void;
 }
@@ -10,7 +11,8 @@ interface Props {
 export function OrderReceivedModal({ onClose }: Props) {
     const sheetRef = useRef<HTMLDivElement>(null);
     const dispatch = useDispatch();
-    const serverName = "Maria";
+    const { t } = useTranslation();
+    const name = "Maria";
     const onCallServer = () => {
         dispatch(closeOrderReceivedModal());
         dispatch(openModalCallWindow());
@@ -57,22 +59,24 @@ export function OrderReceivedModal({ onClose }: Props) {
             >
                 <div className={styles.handle} />
 
-                <h2 className={styles.title}>Thank you for your order!</h2>
+                {/* "thankYou": "Děkujeme za vaši objednávku!",
+    "serverReceived": "Váš číšník {{name}} obdržel vaši objednávku.",
+    "questions": "Pokud máte nějaké otázky, můžete zavolat číšníka.",
+    "callServer": "Přivolat číšníka",
+    "gotIt": "Rozumím" */}
 
-                <p className={styles.subtitle}>
-                    Your server <strong>{serverName}</strong> has received your order.
-                </p>
+                <h2 className={styles.title}>{t("orderSuccess.thankYou")}</h2>
 
-                <p className={styles.description}>
-                    If you have any questions, feel free to call your server.
-                </p>
+                <p className={styles.subtitle}>{t("orderSuccess.serverReceived", { name })}</p>
+
+                <p className={styles.description}>{t("orderSuccess.questions")}</p>
 
                 <button type="button" className={styles.secondaryButton} onClick={onCallServer}>
-                    Call server
+                    {t("orderSuccess.callServer")}
                 </button>
 
                 <button type="button" className={styles.primaryButton} onClick={onClose}>
-                    Got it
+                    {t("orderSuccess.gotIt")}
                 </button>
             </div>
         </div>

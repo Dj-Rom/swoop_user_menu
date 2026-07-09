@@ -11,6 +11,14 @@ import it from "./locales/it/translation.json";
 import pt from "./locales/pt/translation.json";
 import nl from "./locales/nl/translation.json";
 import uk from "./locales/uk/translation.json";
+import cz from "./locales/cz/translation.json";
+import ja from "./locales/ja/translation.json";
+import ko from "./locales/ko/translation.json";
+import no from "./locales/no/translation.json";
+import sk from "./locales/sk/translation.json";
+import sl from "./locales/sl/translation.json";
+import sv from "./locales/sv/translation.json";
+import zh from "./locales/zh/translation.json";
 
 const savedLang = localStorage.getItem("lang");
 const browserLang = navigator.language.split("-")[0];
@@ -26,7 +34,15 @@ const resources = {
     it: { translation: it },
     pt: { translation: pt },
     nl: { translation: nl },
-    ua: { translation: uk }
+    ua: { translation: uk },
+    cz: { translation: cz },
+    ja: { translation: ja },
+    ko: { translation: ko },
+    no: { translation: no },
+    sk: { translation: sk },
+    sl: { translation: sl },
+    sv: { translation: sv },
+    zh: { translation: zh }
 };
 
 i18n.use(initReactI18next).init({
@@ -48,7 +64,26 @@ export async function loadLanguage(lang: string) {
     await i18n.changeLanguage(lang);
 }
 
-const supportedLanguages = ["en", "ru", "pl", "de", "fr", "es", "it", "pt", "nl", "uk"];
+const supportedLanguages = [
+    "en",
+    "ru",
+    "pl",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "pt",
+    "nl",
+    "uk",
+    "cz",
+    "ja",
+    "ko",
+    "no",
+    "sk",
+    "sl",
+    "sv",
+    "zh"
+];
 
 export function preloadLanguages() {
     setTimeout(() => {

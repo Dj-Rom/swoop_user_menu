@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "Sezónní menu",
+        "main": "Hlavní menu",
+        "drinks": "Nápoje",
+        "desserts": "Dezerty",
+        "viewOrder": "Zobrazit objednávku",
+        "addToOrder": "Přidat k objednávce",
+        "placeOrder": "Odeslat objednávku",
+        "yourOrder": "Vaše objednávka",
+        "total": "Celkem",
+        "addMore": "Přidat další",
+        "order": "Objednávka",
+        "eat_in": "Na místě",
+        "to_go": "S sebou",
+        "callWaiter": "Přivolat číšníka",
+        "consultation": "Konzultace",
+        "payment": "Platba",
+        "additionToOrder": "Přidat k objednávce",
+        "other": "Jiné",
+        "toPay": "k zaplacení",
+        "totalAmount": "Celková částka",
+        "splitEvenly": "Rozdělit rovnoměrně",
+        "selectItems": "Vybrat položky",
+        "selectCustomAmount": "Vybrat vlastní částku",
+        "addTipForStaff": "Přidat spropitné pro personál",
+        "noTip": "Bez spropitného",
+        "enterOtherAmount": "Zadat jinou částku"
+    },
+    "orderSuccess": {
+        "thankYou": "Děkujeme za vaši objednávku!",
+        "serverReceived": "Váš číšník {{name}} obdržel vaši objednávku.",
+        "questions": "Pokud máte nějaké otázky, můžete zavolat číšníka.",
+        "callServer": "Přivolat číšníka",
+        "gotIt": "Rozumím"
+    },
+    "welcomePage": {
+        "hello": "AHOJ",
+        "subtitle": "Objevte čerstvé chutě a nezapomenutelné kulinářské zážitky.",
+        "welcome": "Vítejte",
+        "description": "Vychutnejte si domácí pokrmy z čerstvých surovin v příjemné a útulné atmosféře. Objednejte si své oblíbené jídlo jen několika kliknutími.",
+        "orderNow": "Objednat nyní"
+    },
+    "category": {
+        "Starters": "Předkrmy",
+        "Soups": "Polévky",
+        "Salads": "Saláty",
+        "Sides": "Přílohy",
+        "Mains": "Hlavní jídla"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Opékaný chléb s rajčaty a bazalkou."
+        },
+        "garlicBread": {
+            "name": "Česnekový chléb",
+            "description": "Chléb s česnekovým máslem."
+        },
+        "tomatoSoup": {
+            "name": "Rajčatová polévka",
+            "description": "Krémová rajčatová polévka."
+        },
+        "mushroomSoup": {
+            "name": "Houbová polévka",
+            "description": "Bohatá houbová polévka."
+        },
+        "greekSalad": {
+            "name": "Řecký salát",
+            "description": "Čerstvá zelenina se sýrem feta."
+        },
+        "caesarSalad": {
+            "name": "Caesar salát",
+            "description": "Klasický Caesar salát."
+        },
+        "fries": {
+            "name": "Hranolky",
+            "description": "Křupavé hranolky."
+        },
+        "mashedPotatoes": {
+            "name": "Bramborová kaše",
+            "description": "Krémová bramborová kaše."
+        },
+        "chickenGrill": {
+            "name": "Grilované kuře",
+            "description": "Šťavnaté grilované kuře."
+        },
+        "beefSteak": {
+            "name": "Hovězí steak",
+            "description": "Šťavnatý steak."
+        }
+    },
+    "currency": "€"
+}

@@ -3,7 +3,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import orderReducer from "./slices/orderSlice";
 
 import orderReceivedModalReducer from "./slices/orderReceivedModalSlice";
-import modalCallWindow from "./slices/ModalCallWindow";
+import modalCallWindow from "./slices/modalCallWindow";
 
 export const store = configureStore({
     reducer: {

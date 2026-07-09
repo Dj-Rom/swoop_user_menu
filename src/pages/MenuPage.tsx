@@ -78,7 +78,6 @@ export function MenuPage() {
                         <button
                             className={styles.footer_button}
                             onClick={() => {
-                                console.log("fff");
                                 navigate("/order");
                             }}
                         >

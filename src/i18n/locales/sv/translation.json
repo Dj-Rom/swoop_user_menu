@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "Säsongsmeny",
+        "main": "Huvudmeny",
+        "drinks": "Drycker",
+        "desserts": "Desserter",
+        "viewOrder": "Visa beställning",
+        "addToOrder": "Lägg till i beställning",
+        "placeOrder": "Skicka beställning",
+        "yourOrder": "Din beställning",
+        "total": "Totalt",
+        "addMore": "Lägg till mer",
+        "order": "Beställning",
+        "eat_in": "Äta här",
+        "to_go": "Ta med",
+        "callWaiter": "Kalla på servitör",
+        "consultation": "Konsultation",
+        "payment": "Betalning",
+        "additionToOrder": "Lägg till i beställning",
+        "other": "Annat",
+        "toPay": "att betala",
+        "totalAmount": "Totalt belopp",
+        "splitEvenly": "Dela lika",
+        "selectItems": "Välj artiklar",
+        "selectCustomAmount": "Välj eget belopp",
+        "addTipForStaff": "Lägg till dricks till personalen",
+        "noTip": "Ingen dricks",
+        "enterOtherAmount": "Ange annat belopp"
+    },
+    "orderSuccess": {
+        "thankYou": "Tack för din beställning!",
+        "serverReceived": "Din servitör {{name}} har tagit emot din beställning.",
+        "questions": "Om du har några frågor kan du kalla på din servitör.",
+        "callServer": "Kalla på servitör",
+        "gotIt": "Jag förstår"
+    },
+    "welcomePage": {
+        "hello": "HEJ",
+        "subtitle": "Upptäck färska smaker och oförglömliga kulinariska upplevelser.",
+        "welcome": "Välkommen",
+        "description": "Njut av handgjorda rätter tillagade av färska råvaror i en varm och välkomnande atmosfär. Beställ dina favoriter med bara några klick.",
+        "orderNow": "Beställ nu"
+    },
+    "category": {
+        "Starters": "Förrätter",
+        "Soups": "Soppor",
+        "Salads": "Sallader",
+        "Sides": "Tillbehör",
+        "Mains": "Huvudrätter"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Rostat bröd med tomater och basilika."
+        },
+        "garlicBread": {
+            "name": "Vitlöksbröd",
+            "description": "Bröd med vitlökssmör."
+        },
+        "tomatoSoup": {
+            "name": "Tomatsoppa",
+            "description": "Krämig tomatsoppa."
+        },
+        "mushroomSoup": {
+            "name": "Svampsoppa",
+            "description": "Mustig svampsoppa."
+        },
+        "greekSalad": {
+            "name": "Grekisk sallad",
+            "description": "Färska grönsaker med fetaost."
+        },
+        "caesarSalad": {
+            "name": "Caesarsallad",
+            "description": "Klassisk Caesarsallad."
+        },
+        "fries": {
+            "name": "Pommes frites",
+            "description": "Krispiga pommes frites."
+        },
+        "mashedPotatoes": {
+            "name": "Potatismos",
+            "description": "Krämigt potatismos."
+        },
+        "chickenGrill": {
+            "name": "Grillad kyckling",
+            "description": "Saftig grillad kyckling."
+        },
+        "beefSteak": {
+            "name": "Biff",
+            "description": "Saftig biff."
+        }
+    },
+    "currency": "€"
+}

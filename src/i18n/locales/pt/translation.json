@@ -27,6 +27,13 @@
         "noTip": "Sem gorjeta",
         "enterOtherAmount": "Inserir outro valor"
     },
+    "orderSuccess": {
+        "thankYou": "Obrigado pelo seu pedido!",
+        "serverReceived": "O seu empregado {{name}} recebeu o seu pedido.",
+        "questions": "Se tiver alguma dúvida, não hesite em chamar o seu empregado.",
+        "callServer": "Chamar empregado",
+        "gotIt": "Entendi"
+    },
     "welcomePage": {
         "hello": "OLÁ",
         "subtitle": "Descubra sabores frescos e experiências gastronômicas inesquecíveis.",

@@ -27,6 +27,13 @@
         "noTip": "Pas de pourboire",
         "enterOtherAmount": "Saisir un autre montant"
     },
+    "orderSuccess": {
+        "thankYou": "Merci pour votre commande !",
+        "serverReceived": "Votre serveur {{name}} a reçu votre commande.",
+        "questions": "Si vous avez des questions, n'hésitez pas à appeler votre serveur.",
+        "callServer": "Appeler le serveur",
+        "gotIt": "Compris"
+    },
     "welcomePage": {
         "hello": "BONJOUR",
         "subtitle": "Découvrez des saveurs fraîches et des expériences culinaires inoubliables.",

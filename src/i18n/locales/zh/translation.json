@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "季节菜单",
+        "main": "主菜单",
+        "drinks": "饮品",
+        "desserts": "甜点",
+        "viewOrder": "查看订单",
+        "addToOrder": "加入订单",
+        "placeOrder": "提交订单",
+        "yourOrder": "您的订单",
+        "total": "总计",
+        "addMore": "继续添加",
+        "order": "订单",
+        "eat_in": "堂食",
+        "to_go": "外带",
+        "callWaiter": "呼叫服务员",
+        "consultation": "咨询",
+        "payment": "付款",
+        "additionToOrder": "添加到订单",
+        "other": "其他",
+        "toPay": "待支付",
+        "totalAmount": "总金额",
+        "splitEvenly": "平均分摊",
+        "selectItems": "选择商品",
+        "selectCustomAmount": "输入自定义金额",
+        "addTipForStaff": "给服务人员添加小费",
+        "noTip": "不添加小费",
+        "enterOtherAmount": "输入其他金额"
+    },
+    "orderSuccess": {
+        "thankYou": "感谢您的订单！",
+        "serverReceived": "您的服务员 {{name}} 已收到您的订单。",
+        "questions": "如果您有任何问题，请随时呼叫服务员。",
+        "callServer": "呼叫服务员",
+        "gotIt": "知道了"
+    },
+    "welcomePage": {
+        "hello": "您好",
+        "subtitle": "探索新鲜风味，享受难忘的美食体验。",
+        "welcome": "欢迎光临",
+        "description": "在温馨舒适的环境中，品尝使用新鲜食材制作的手工料理。只需几步即可订购您喜欢的美食。",
+        "orderNow": "立即点餐"
+    },
+    "category": {
+        "Starters": "前菜",
+        "Soups": "汤类",
+        "Salads": "沙拉",
+        "Sides": "配菜",
+        "Mains": "主菜"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "意式烤面包",
+            "description": "配有番茄和罗勒的烤面包。"
+        },
+        "garlicBread": {
+            "name": "蒜香面包",
+            "description": "搭配蒜香黄油的面包。"
+        },
+        "tomatoSoup": {
+            "name": "番茄汤",
+            "description": "浓郁顺滑的番茄汤。"
+        },
+        "mushroomSoup": {
+            "name": "蘑菇汤",
+            "description": "味道浓郁的蘑菇汤。"
+        },
+        "greekSalad": {
+            "name": "希腊沙拉",
+            "description": "新鲜蔬菜配羊奶酪。"
+        },
+        "caesarSalad": {
+            "name": "凯撒沙拉",
+            "description": "经典凯撒沙拉。"
+        },
+        "fries": {
+            "name": "薯条",
+            "description": "香脆薯条。"
+        },
+        "mashedPotatoes": {
+            "name": "土豆泥",
+            "description": "奶油般顺滑的土豆泥。"
+        },
+        "chickenGrill": {
+            "name": "烤鸡",
+            "description": "多汁的烤鸡。"
+        },
+        "beefSteak": {
+            "name": "牛排",
+            "description": "鲜嫩多汁的牛排。"
+        }
+    },
+    "currency": "€"
+}

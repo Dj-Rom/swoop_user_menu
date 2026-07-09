@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "Sesongmeny",
+        "main": "Hovedmeny",
+        "drinks": "Drikkevarer",
+        "desserts": "Desserter",
+        "viewOrder": "Se bestilling",
+        "addToOrder": "Legg til i bestilling",
+        "placeOrder": "Send bestilling",
+        "yourOrder": "Din bestilling",
+        "total": "Totalt",
+        "addMore": "Legg til mer",
+        "order": "Bestilling",
+        "eat_in": "Spise her",
+        "to_go": "Ta med",
+        "callWaiter": "Tilbered en servitør",
+        "consultation": "Konsultasjon",
+        "payment": "Betaling",
+        "additionToOrder": "Legg til i bestilling",
+        "other": "Annet",
+        "toPay": "å betale",
+        "totalAmount": "Totalbeløp",
+        "splitEvenly": "Del likt",
+        "selectItems": "Velg varer",
+        "selectCustomAmount": "Velg eget beløp",
+        "addTipForStaff": "Legg til tips til personalet",
+        "noTip": "Ingen tips",
+        "enterOtherAmount": "Angi annet beløp"
+    },
+    "orderSuccess": {
+        "thankYou": "Takk for bestillingen!",
+        "serverReceived": "Servitøren din {{name}} har mottatt bestillingen din.",
+        "questions": "Hvis du har spørsmål, kan du gjerne tilkalle servitøren.",
+        "callServer": "Tilkalde servitør",
+        "gotIt": "Forstått"
+    },
+    "welcomePage": {
+        "hello": "HEI",
+        "subtitle": "Oppdag friske smaker og uforglemmelige kulinariske opplevelser.",
+        "welcome": "Velkommen",
+        "description": "Nyt håndlagde retter laget av ferske ingredienser i en varm og innbydende atmosfære. Bestill dine favoritter med bare noen få klikk.",
+        "orderNow": "Bestill nå"
+    },
+    "category": {
+        "Starters": "Forretter",
+        "Soups": "Supper",
+        "Salads": "Salater",
+        "Sides": "Tilbehør",
+        "Mains": "Hovedretter"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Ristet brød med tomater og basilikum."
+        },
+        "garlicBread": {
+            "name": "Hvitløksbrød",
+            "description": "Brød med hvitløkssmør."
+        },
+        "tomatoSoup": {
+            "name": "Tomatsuppe",
+            "description": "Kremet tomatsuppe."
+        },
+        "mushroomSoup": {
+            "name": "Soppsuppe",
+            "description": "Fyldig soppsuppe."
+        },
+        "greekSalad": {
+            "name": "Gresk salat",
+            "description": "Friske grønnsaker med fetaost."
+        },
+        "caesarSalad": {
+            "name": "Cæsarsalat",
+            "description": "Klassisk cæsarsalat."
+        },
+        "fries": {
+            "name": "Pommes frites",
+            "description": "Sprø pommes frites."
+        },
+        "mashedPotatoes": {
+            "name": "Potetmos",
+            "description": "Kremet potetmos."
+        },
+        "chickenGrill": {
+            "name": "Grillet kylling",
+            "description": "Saftig grillet kylling."
+        },
+        "beefSteak": {
+            "name": "Biff",
+            "description": "Saftig biff."
+        }
+    },
+    "currency": "€"
+}

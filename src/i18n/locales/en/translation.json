@@ -27,6 +27,13 @@
         "noTip": "No tip",
         "enterOtherAmount": "Enter other amount"
     },
+    "orderSuccess": {
+        "thankYou": "Thank you for your order!",
+        "serverReceived": "Your server {{name}} has received your order.",
+        "questions": "If you have any questions, feel free to call your server.",
+        "callServer": "Call server",
+        "gotIt": "Got it"
+    },
     "welcomePage": {
         "hello": "HELLO",
         "subtitle": "Discover fresh flavors and unforgettable dining experiences.",

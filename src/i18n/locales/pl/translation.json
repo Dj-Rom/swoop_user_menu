@@ -27,6 +27,13 @@
         "noTip": "Bez napiwku",
         "enterOtherAmount": "Wprowadź inną kwotę"
     },
+    "orderSuccess": {
+        "thankYou": "Dziękujemy za zamówienie!",
+        "serverReceived": "Twój kelner {{name}} otrzymał Twoje zamówienie.",
+        "questions": "Jeśli masz pytania, możesz poprosić kelnera.",
+        "callServer": "Wezwij kelnera",
+        "gotIt": "Rozumiem"
+    },
     "welcomePage": {
         "hello": "CZEŚĆ",
         "subtitle": "Odkryj świeże smaki i niezapomniane doświadczenia kulinarne.",

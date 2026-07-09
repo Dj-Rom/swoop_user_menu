@@ -15,7 +15,8 @@ import {
     decrementItemQty,
     selectTotalPrice
 } from "../store/slices/orderSlice";
-import { closeModalCallWindow } from "../store/slices/ModalCallWindow";
+import { closeModalCallWindow, closeModalPaymentWindow } from "../store/slices/modalCallWindow";
+import { ModalPaymentWindow } from "../components/modalPaymentWindow";
 import {
     openOrderReceivedModal,
     closeOrderReceivedModal
@@ -31,6 +32,7 @@ export function OrderPage() {
     const items = useSelector((state: RootState) => state.order.items);
     const isOpen = useSelector((state: RootState) => state.orderReceivedModal.isOpen);
     const isOpenCall = useSelector((state: RootState) => state.modalCallWindow.isOpen);
+    const isPayment = useSelector((state: RootState) => state.modalCallWindow.isPayment);
     const loading = useSelector((state: RootState) => state.order.loading);
     const error = useSelector((state: RootState) => state.order.error);
     const totalPrice = useSelector(selectTotalPrice);
@@ -64,7 +66,11 @@ export function OrderPage() {
                 ) : (
                     <ul className={styles.list}>
                         {items.map((item, i) => (
-                            <li key={item.id} className={styles.item}>
+                            <li
+                                key={item.id}
+                                className={styles.item}
+                                onClick={() => navigate(`/dish/${item.id}`)}
+                            >
                                 <span className={styles.index}>{i + 1}.</span>
 
                                 <img
@@ -147,6 +153,9 @@ export function OrderPage() {
                     </button>
                 </div>
             </section>
+            {isPayment && (
+                <ModalPaymentWindow onClose={() => dispatch(closeModalPaymentWindow())} />
+            )}
             {isOpenCall && <ModalCallWindow onClose={() => dispatch(closeModalCallWindow())} />}
             {isOpen && <OrderReceivedModal onClose={() => dispatch(closeOrderReceivedModal())} />}
         </>

@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "시즌 메뉴",
+        "main": "메인 메뉴",
+        "drinks": "음료",
+        "desserts": "디저트",
+        "viewOrder": "주문 보기",
+        "addToOrder": "주문에 추가",
+        "placeOrder": "주문하기",
+        "yourOrder": "내 주문",
+        "total": "합계",
+        "addMore": "더 추가하기",
+        "order": "주문",
+        "eat_in": "매장 식사",
+        "to_go": "포장",
+        "callWaiter": "직원 호출",
+        "consultation": "문의",
+        "payment": "결제",
+        "additionToOrder": "주문에 추가",
+        "other": "기타",
+        "toPay": "결제 금액",
+        "totalAmount": "총 금액",
+        "splitEvenly": "균등하게 나누기",
+        "selectItems": "항목 선택",
+        "selectCustomAmount": "금액 직접 입력",
+        "addTipForStaff": "직원에게 팁 추가",
+        "noTip": "팁 없음",
+        "enterOtherAmount": "다른 금액 입력"
+    },
+    "welcomePage": {
+        "hello": "안녕하세요",
+        "subtitle": "신선한 맛과 잊지 못할 미식 경험을 만나보세요.",
+        "welcome": "환영합니다",
+        "description": "신선한 재료로 만든 정성스러운 요리를 따뜻하고 편안한 분위기에서 즐겨보세요. 몇 번의 클릭만으로 좋아하는 메뉴를 주문할 수 있습니다.",
+        "orderNow": "지금 주문하기"
+    },
+    "orderSuccess": {
+        "thankYou": "주문해 주셔서 감사합니다!",
+        "serverReceived": "담당 직원 {{name}}님이 주문을 확인했습니다.",
+        "questions": "궁금한 점이 있으면 직원을 호출해 주세요.",
+        "callServer": "직원 호출",
+        "gotIt": "확인"
+    },
+    "category": {
+        "Starters": "애피타이저",
+        "Soups": "수프",
+        "Salads": "샐러드",
+        "Sides": "사이드 메뉴",
+        "Mains": "메인 요리"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "브루스케타",
+            "description": "토마토와 바질을 올린 구운 빵."
+        },
+        "garlicBread": {
+            "name": "갈릭 브레드",
+            "description": "마늘 버터를 바른 빵."
+        },
+        "tomatoSoup": {
+            "name": "토마토 수프",
+            "description": "부드러운 크림 토마토 수프."
+        },
+        "mushroomSoup": {
+            "name": "버섯 수프",
+            "description": "진한 풍미의 버섯 수프."
+        },
+        "greekSalad": {
+            "name": "그리스 샐러드",
+            "description": "신선한 채소와 페타 치즈 샐러드."
+        },
+        "caesarSalad": {
+            "name": "시저 샐러드",
+            "description": "클래식 시저 샐러드."
+        },
+        "fries": {
+            "name": "감자튀김",
+            "description": "바삭한 감자튀김."
+        },
+        "mashedPotatoes": {
+            "name": "으깬 감자",
+            "description": "부드러운 감자 퓌레."
+        },
+        "chickenGrill": {
+            "name": "그릴 치킨",
+            "description": "육즙 가득한 구운 치킨."
+        },
+        "beefSteak": {
+            "name": "소고기 스테이크",
+            "description": "육즙 가득한 스테이크."
+        }
+    },
+    "currency": "€"
+}

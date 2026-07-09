@@ -27,6 +27,13 @@
         "noTip": "Kein Trinkgeld",
         "enterOtherAmount": "Anderen Betrag eingeben"
     },
+    "orderSuccess": {
+        "thankYou": "Vielen Dank für Ihre Bestellung!",
+        "serverReceived": "Ihr Kellner {{name}} hat Ihre Bestellung erhalten.",
+        "questions": "Wenn Sie Fragen haben, können Sie gerne Ihren Kellner rufen.",
+        "callServer": "Kellner rufen",
+        "gotIt": "Verstanden"
+    },
     "welcomePage": {
         "hello": "HALLO",
         "subtitle": "Entdecke frische Aromen und unvergessliche kulinarische Erlebnisse.",

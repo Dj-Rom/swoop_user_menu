@@ -27,6 +27,13 @@
         "noTip": "Sin propina",
         "enterOtherAmount": "Introducir otro importe"
     },
+    "orderSuccess": {
+        "thankYou": "¡Gracias por su pedido!",
+        "serverReceived": "Su camarero {{name}} ha recibido su pedido.",
+        "questions": "Si tiene alguna pregunta, no dude en llamar a su camarero.",
+        "callServer": "Llamar al camarero",
+        "gotIt": "Entendido"
+    },
     "welcomePage": {
         "hello": "HOLA",
         "subtitle": "Descubre sabores frescos y experiencias gastronómicas inolvidables.",

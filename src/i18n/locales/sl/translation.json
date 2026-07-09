@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "seasonal": "Sezonski meni",
+        "main": "Glavni meni",
+        "drinks": "Pijače",
+        "desserts": "Sladice",
+        "viewOrder": "Ogled naročila",
+        "addToOrder": "Dodaj k naročilu",
+        "placeOrder": "Oddaj naročilo",
+        "yourOrder": "Vaše naročilo",
+        "total": "Skupaj",
+        "addMore": "Dodaj več",
+        "order": "Naročilo",
+        "eat_in": "Na mestu",
+        "to_go": "Za s seboj",
+        "callWaiter": "Pokliči natakarja",
+        "consultation": "Posvetovanje",
+        "payment": "Plačilo",
+        "additionToOrder": "Dodaj k naročilu",
+        "other": "Drugo",
+        "toPay": "za plačilo",
+        "totalAmount": "Skupni znesek",
+        "splitEvenly": "Razdeli enakomerno",
+        "selectItems": "Izberi izdelke",
+        "selectCustomAmount": "Izberi poljuben znesek",
+        "addTipForStaff": "Dodaj napitnino za osebje",
+        "noTip": "Brez napitnine",
+        "enterOtherAmount": "Vnesi drug znesek"
+    },
+    "orderSuccess": {
+        "thankYou": "Hvala za vaše naročilo!",
+        "serverReceived": "Vaš natakar {{name}} je prejel vaše naročilo.",
+        "questions": "Če imate kakršna koli vprašanja, lahko pokličete natakarja.",
+        "callServer": "Pokliči natakarja",
+        "gotIt": "Razumem"
+    },
+    "welcomePage": {
+        "hello": "POZDRAVLJENI",
+        "subtitle": "Odkrijte sveže okuse in nepozabna kulinarična doživetja.",
+        "welcome": "Dobrodošli",
+        "description": "Uživajte v ročno pripravljenih jedeh iz svežih sestavin v toplem in prijetnem okolju. Naročite svoje priljubljene jedi z le nekaj kliki.",
+        "orderNow": "Naroči zdaj"
+    },
+    "category": {
+        "Starters": "Predjedi",
+        "Soups": "Juhe",
+        "Salads": "Solate",
+        "Sides": "Priloge",
+        "Mains": "Glavne jedi"
+    },
+    "menu": {
+        "bruschetta": {
+            "name": "Bruschetta",
+            "description": "Opečen kruh s paradižnikom in baziliko."
+        },
+        "garlicBread": {
+            "name": "Česnov kruh",
+            "description": "Kruh s česnovim maslom."
+        },
+        "tomatoSoup": {
+            "name": "Paradižnikova juha",
+            "description": "Kremna paradižnikova juha."
+        },
+        "mushroomSoup": {
+            "name": "Gobova juha",
+            "description": "Bogata gobova juha."
+        },
+        "greekSalad": {
+            "name": "Grška solata",
+            "description": "Sveža zelenjava s feto."
+        },
+        "caesarSalad": {
+            "name": "Cezarjeva solata",
+            "description": "Klasična Cezarjeva solata."
+        },
+        "fries": {
+            "name": "Pomfri",
+            "description": "Hrustljav pomfri."
+        },
+        "mashedPotatoes": {
+            "name": "Pire krompir",
+            "description": "Kremast krompirjev pire."
+        },
+        "chickenGrill": {
+            "name": "Piščanec na žaru",
+            "description": "Sočen piščanec na žaru."
+        },
+        "beefSteak": {
+            "name": "Goveji zrezek",
+            "description": "Sočen goveji steak."
+        }
+    },
+    "currency": "€"
+}
